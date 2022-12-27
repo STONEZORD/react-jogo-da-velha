@@ -3,11 +3,11 @@ import styles from './GameInfo.module.css'
 import Icon from '../icon/Icon'
 import Button from '../button/Button'
 
-function GameInfo ({ currentPlayer, winner, onReset }) {
+function GameInfo({ currentPlayer, winner, onReset }) {
 
-const shouldEnableButton = () => {
-  if (winner !== 0) return true
-}
+  const shouldEnableButton = () => {
+    if (winner !== 0) return true
+  }
 
   return (
     <div className={styles.gameInfo}>
@@ -39,7 +39,7 @@ const shouldEnableButton = () => {
         onClick={onReset}
         disabled={!shouldEnableButton()}
       >
-        Jogar Novamente
+        Reiniciar
       </Button>
     </div>
   )

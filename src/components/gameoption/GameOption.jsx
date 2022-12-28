@@ -19,7 +19,7 @@ function GameOption({ status, onClick, isWinner, isDraw }) {
         status === 1 && <Icon iconName="circle" />
       }
       {
-        status === -1 && <Icon iconName="x" />
+        status === -1 && <Icon iconName="X" />
       }
 
     </div>

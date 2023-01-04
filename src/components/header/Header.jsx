@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <Title>JOGO DA VELHA</Title>
-      <Subtitle>Stonezord Corporation LTDA</Subtitle>
+      <Subtitle>Stonezord Corporation</Subtitle>
       <div className={styles.iconContent}>
         <Icon iconName="github" link="https://github.com/STONEZORD"/>
       </div>
